@@ -1,21 +1,21 @@
 * {
-    font-family: 'poppins', sans-serif;
+  font-family: 'poppins', sans-serif;
 }
 
 .navbar-brand {
-    margin-left: 10.76%;
+  margin-left: 10.76%;
 }
 
 .navbar-brand h1 {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-    color: #5867eb;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #5867eb;
 }
 
 .navbar-nav li a h2 {
-    font-size: 15px;
-    line-height: 20px;
-    font-weight: 500;
-    color: #344563;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #344563;
 }
