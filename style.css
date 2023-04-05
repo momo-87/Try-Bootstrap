@@ -65,3 +65,8 @@
   margin-left: 21%;
   gap: 20px;
 }
+
+.break {
+  display: none;
+}
+
