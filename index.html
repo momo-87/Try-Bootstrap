@@ -73,10 +73,9 @@
         </div>
         </main>
     </section>
-
-    <section class="container justify-content-center my-5 recent_work">
+    <section class="container-fluid justify-content-center recent_work">
       <!--Card 1-->
-    <div class="card mb-3 " style=" max-width: 85vw; height: 65vh; padding-left: 24px; margin-bottom: 50%;border: 2px solid #DFE1E6;">
+    <div class="card">
       <div class="row g-0 flex-row d-flex h-100">
         <div class="col-md-5 align-items-center d-flex">
           <img src="images/desktop1.png" class="img-fluid rounded-start ml-2 my-2" alt="card1">
@@ -102,11 +101,11 @@
       </div>
     </div>
      <!--Start of card 2-->
-<div class="card mb-3 " style="max-width: 85vw; height: 65vh; border: 2px solid #DFE1E6;">
-  <div class="row g-0 flex-row-reverse d-flex h-100">
-    <div class="col-md-5 align-items-center d-flex">
-      <img src="images/desktop2.png" class="img-fluid rounded-start ml-2 my-2" alt="card2">
-    </div>
+    <div class="card mb-3 ">
+        <div class="row g-0 flex-row-reverse d-flex h-100">
+            <div class="col-md-5 align-items-center d-flex">
+                <img src="images/desktop2.png" class="img-fluid rounded-start ml-2 my-2" alt="card2">
+            </div>
     <div class="col-md-6 py-2">
       <div class="card-body">
         <h2 class="card-title font-weight-bold">Tonic</h2>
@@ -128,7 +127,7 @@
   </div>
 </div>
 <!-- Card 3 -->
-<div class="card mb-3 " style="max-width: 85vw; height: 65vh; padding-left: 24px; border: 2px solid #DFE1E6;">
+<div class="card mb-3">
   <div class="row g-0 flex-row d-flex h-100">
     <div class="col-md-5 align-items-center d-flex">
       <img src="images/desktop3.png" class="img-fluid rounded-start ml-2 my-2" alt="card3">
@@ -154,7 +153,7 @@
   </div>
 </div>
 <!---Card 4-->
-<div class="card mb-3 " style="max-width: 85vw; height: 65vh; padding-left: 24px; border: 2px solid #DFE1E6;">
+<div class="card mb-3 ">
   <div class="row g-0 flex-row-reverse d-flex h-100">
     <div class="col-md-5 align-items-center d-flex">
       <img src="images/desktop4.png" class="img-fluid rounded-start ml-2 my-2" alt="card4">
@@ -179,79 +178,50 @@
     </div>
   </div>
 </div>
-<section class=section class="text-white bg-info">
-  <div class="row form d-flex justify-content-center">
-    <div class="col-6 mt-5 flex-column">
-      <div class="form-heading d-flex justify-content-center flex-column px-5 pt-5">
-      <h1 class=card-title font-weight-bold><h1>About<br />
-      Myself
-      </h1>
-      <p class="text-justify">
-        Hello I’m a software developer! I can help you build a product ,
-        feature or website Look through some of my work and experience! If
-        you like what you see and have a project you need coded, don’t
-        hestiate to contact me.
-      </p>
-    <div class="heading-social">
-      <h2 class="icons-header">LET'S CONNECT</h2>
-      <div>
-        <ul class="icons" id="social_media">
-          <i class="fa-brands fa-twitter mx-1"></i>
-              <i class="fa-brands fa-linkedin-in mx-1"></i>
-              <i class="fa-solid fa-m mx-1"></i>
-              <i class="fa-brands fa-github mx-1"></i>
-              <i class="fa-brands fa-angellist mx-1"></i>
-        </ul>
-        <button id="popup" type="button">Get my resume</button>
-      </div>
-      
-    </div>
-    </div>
-    <div class="col-md-6 py-2">
-     <div class="row g-0 flex-row-reverse d-flex h-100">
-      <div class="card-body">
-        <h2 class="card-title font-weight-bold">Languages</h2>
-        <ul class="list-inline d-flex flex-row">
-                <li class="arrows">
-          <img src="images/arrow-down.png" alt="arrow.png" />
-               </li>
-        </ul>
-      </div>
-     </div>
-    </div>
-    <ul class="icons-lang">
-      <li class="lang-icons"><img src="images/Frame 9.png" />Javascript</li>
-      <li class="lang-icons"><img src="images/Frame 10.png" alt="html" />HTML</li>
-      <li class="lang-icons"><img src="images/Frame 11.png" alt="Ellipse" />CSS</li>
-    </ul>
-    <div>
-      <ul class="lang">
-        <li><h4>Frameworks</h4></li>
-        <li class="arrows">
-          <img src="images/arrow.png" alt="arrow.png" />
-        </li>
-      </ul>
-    </div>
-    
-    <div>
-      <ul class="lang">
-        <li><h4>Skills</h4></li>
-        <li class="arrows">
-          <img src="images/arrow.png" alt="arrow.png" />
-        </li>
-      </ul>
-      
-    </div>
-    <img
-      class="Separator-Line"
-      src="images/Separator Line.png"
-      alt="Separator-Line"
-    />
-    
-  </div>
-
 </section>
+<section class=section class="text-white bg-info ab_myselft">
+    <div class="row d-flex flex-row">
+        <div class="col-6">
+            <h1 class=card-title font-weight-bold><h1>About<span class="ab_primary_text">Myself</span></h1>
+            <p>Hello I’m a software developer! I can help you build a product ,
+                feature or website Look through some of my work and experience! If
+                you like what you see and have a project you need coded, don’t
+                hestiate to contact me</p>
+            <h2 class="icons-header">LET'S CONNECT</h2>
+            <div>
+                <ul class="icons" id="social_media">
+                  <i class="fa-brands fa-twitter mx-1"></i>
+                      <i class="fa-brands fa-linkedin-in mx-1"></i>
+                      <i class="fa-solid fa-m mx-1"></i>
+                      <i class="fa-brands fa-github mx-1"></i>
+                      <i class="fa-brands fa-angellist mx-1"></i>
+                </ul>
+                <button id="popup" type="button">Get my resume</button>
+              </div>
+        </div>
+        <div class="col-6">
+            <h2 class="card-title font-weight-bold">Languages</h2>
+            <ul class="icons-lang">
+                <li class="lang-icons"><img src="images/Frame 9.png" />Javascript</li>
+                <li class="lang-icons"><img src="images/Frame 10.png" alt="html" />HTML</li>
+                <li class="lang-icons"><img src="images/Frame 11.png" alt="Ellipse" />CSS</li>
+            </ul>
+            <ul class="lang">
+                <li><h4>Frameworks</h4></li>
+                <li class="arrows">
+                  <img src="images/arrow.png" alt="arrow.png" />
+                </li>
+            </ul>
+            <ul class="lang">
+                <li><h4>Skills</h4></li>
+                <li class="arrows">
+                  <img src="images/arrow.png" alt="arrow.png" />
+                </li>
+            </ul>
 
+        </div>
+    </div>
+</section>
 </section>
 <section class="text-white bg-info " style="background-color: #6070FF!important;">
 <div class="row form d-flex justify-content-center">
