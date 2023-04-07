@@ -1,5 +1,5 @@
 main {
-  background-image: url(images/header-bg.png);
+  background-image: url(./images/Header_bg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -16,4 +16,15 @@ main {
 
 .bg-info {
   background-color: #6070ff;
+}
+
+.tech {
+  display: flex;
+  background-color:#EBEBFF;
+  color:#6070ff;
+  text-decoration: none;
+}
+
+.recent_work {
+  background-color: #e6e2e2;
 }
