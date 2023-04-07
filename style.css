@@ -1,0 +1,58 @@
+main {
+  background-image: url(./images/Header_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.navbar-brand {
+  color: #6070ff;
+}
+
+.btnButton {
+  color: #7f8cff;
+  padding-left: 0;
+}
+
+.mx-1 {
+  color: #505f79;
+}
+
+.form_section {
+  background-color: #6070ff;
+}
+
+.tech {
+  display: flex;
+  background-color: #ebebff;
+  color: #6070ff;
+  text-decoration: none;
+}
+
+.recent_work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 142px;
+  padding-bottom: 142px;
+  padding-top: 142px;
+  background-color: #e5e5e5;
+}
+
+.card {
+  max-width: 85vw;
+  height: 65vh;
+  padding-left: 24px;
+  border: 2px solid #dfe1e6;
+  border-radius: 24px;
+}
+
+.ab_primary_text {
+  display: block;
+}
+
+.get_in_touch {
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
