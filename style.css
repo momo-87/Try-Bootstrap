@@ -1,72 +1,19 @@
-* {
-  font-family: 'poppins', sans-serif;
+main {
+  background-image: url(images/header-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
 .navbar-brand {
-  margin-left: 10.76%;
+  color: #6070ff;
+}
+.btnButton {
+  color: #7f8cff;
+  padding-left: 0;
+}
+.mx-1 {
+  color: #505f79;
 }
 
-.navbar-brand h1 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  color: #5867eb;
+.bg-info {
+  background-color: #6070ff;
 }
-
-.navbar-nav li a h2 {
-  font-size: 15px;
-  line-height: 20px;
-  font-weight: 500;
-  color: #344563;
-}
-
-.headline {
-  background: url('./images/header_bg.png') no-repeat;
-  background-size: 1398px 722px;
-  padding-bottom: 255px;
-  height: 100vh;
-  width: 100%;
-}
-
-.primary_text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 288px;
-}
-
-.primary_text h1 {
-  text-align: left;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 60px;
-  color: #091e42;
-}
-
-.primary_text p {
-  font-size: 20px;
-  line-height: 28px;
-  font-weight: 400;
-  text-align: left;
-  color: #344563;
-}
-
-.headline .social-media h2 {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  text-align: left;
-  color: #5867eb;
-  margin-left: 21%;
-}
-
-.social-media-icon {
-  display: flex;
-  margin-left: 21%;
-  gap: 20px;
-}
-
-.break {
-  display: none;
-}
-
