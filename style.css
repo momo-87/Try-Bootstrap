@@ -2,6 +2,7 @@ main {
   background-image: url(./images/Header_bg.png);
   background-size: cover;
   background-repeat: no-repeat;
+  height:90vh;
 }
 
 .navbar-brand {
@@ -17,7 +18,7 @@ main {
   color: #505f79;
 }
 
-.bg-info {
+.form_section {
   background-color: #6070ff;
 }
 
@@ -48,4 +49,10 @@ main {
 
 .ab_primary_text {
   display: block;
+}
+
+.get_in_touch {
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
